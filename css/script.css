@@ -1,0 +1,141 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Bytesized&display=swap');
+body{
+    background-image: url(../assets/img/yellow-mouse-attack-background-free-vector.jpg);
+    background-size: cover;
+    
+}
+
+.titlePoki{
+    font-family: "Bytesized", sans-serif;
+}
+h1{
+    color: white;
+    text-shadow: red 7px 11px 13px;
+    text-align: left;
+    font-size: 75px;
+    font-family: "Bytesized", sans-serif;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+/*
+.botton-group{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+}
+
+.botton-poki{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    height: 70px;
+    width: 20%;
+    font-size: 15px;
+    font-family: Pokimon;
+    border: none;
+    margin: 6px;
+    box-shadow: #fff 0px 0px 10px;
+}
+
+
+.botton-poki:hover{
+    background-color: green;
+    color: white;
+   
+    cursor: pointer;
+}*/
+/*.botton-group{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+}
+
+.botton-poki{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    height: 70px;
+    width: 20%;
+    font-size: 15px;
+    border: none;
+    margin: 6px;
+    box-shadow: #fff 0px 0px 10px;
+}
+
+.botton-poki:hover{
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body{
+    background-image: url('../assets/img/yellow-mouse-attack-background-free-vector.jpg');
+    background-size: cover;
+    font-family: "Rowdies", sans-serif;
+}
+
+.titlePoki{
+    font-family: "Rowdies", sans-serif;;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 55vh;
+}
+.container h1{
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: red 7px 11px 13px ;
+}
+
+.titleSub-poki{
+    justify-content: left;
+}
+
+.text-poki{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-shadow: black 6px 9px 11px;
+}
+
+.botton-group{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 10px;
+}
+
+.botton-poki{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    height: 70px;
+    width: 20%;
+    font-size: 15px;
+    border: none;
+    margin: 6px;
+    box-shadow: #fff 0px 0px 10px;
+}
+
+.botton-poki:hover{
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+@font-face {
+    font-family: 'Pokimon';
+    src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+}

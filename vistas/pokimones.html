@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrenador</title>
+        <script src="../js/Entrenador.js"></script>
+        <script src="../js/pokimones.js"></script>
+        <link rel="stylesheet" href="../css/entrenador.css">
+    </head>
+    <body>
+        <fieldset class="container-1"> 
+            <img id="imgPikachu" src="../assets/img/pikachu.gif" alt="Pikachu" style="display: none;">
+            <img id="imgCharmander" src="../assets/img/char.gif" alt="Charmander" style="display: none;">
+            <img id="imgkrookodile" src="../assets/img/pokemon-krookodile.gif" alt="krookodile" style="display: none;">
+            
+        </fieldset>
+        
+
+            <fieldset class="container-2">
+                <h1>Pokimons</h1>
+            
+                <label for="pokemonList">Selecciona un Pokémon:</label>
+                <select id="pokemonList" name="pokemonList" required>
+                    <option value="">--Seleccionar--</option>
+                    <option value="Pikachu">Pikachu</option>
+                    <option value="Charmander">Charmander </option>
+                    <option value="krookodile">krookodile</option>
+                    
+                </select>
+                <br><br>
+                <label>Tipo Pokimon: </label>
+                <input type="text" id="pokimon" name="pokimon" required readonly><br><br>
+            
+                <label for="ataque">Ataque: </label>
+                <input type="text" id="ataque" name="ataque" required readonly><br><br>
+            
+                <label for="defensa">Defensa: </label>
+                <input type="text" id="defensa" name="defensa" required readonly><br><br>
+            
+            </fieldset>
+            
+            <fieldset class="container-3">
+                <h1>OPCIONES</h1>
+                    <button onclick="verificarCombate()">Siguiente</button>
+            </fieldset>
+        </div>
+    </body>
+</html>
